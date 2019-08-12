@@ -1,0 +1,50 @@
+{
+  "prize-name": "flag",
+  "robot-position": [0.4,0.06],
+  "greeting":[
+    ["<es name='Yawn_02' />  Oh! Hello, <participant-name>! So nice to see you again. <es name='affection_05' /> Looking at you reminds me it's dance time! <es name='dance_disco_00' /> That was fun. <break size='1.0' />  <es name='Body_Look_Center_Down_01'> Oh, look! <break size='1.0'/> It's your robot </es>. We are ready to go play together in the playground this time!<es name='Emoji_Sun' /> ", "YAWN", "LOOKAT_CHILD", "introduction_all_0"]
+  ],
+  "introduction":{
+    "all": [
+      ["Oh no, it looks like someone hid all the flags in a secret place, and we need to find them. <es cat='sad' /> ", "YAWN", "LOOKAT_CHILD", "introduction_all_1"]
+    ],
+    "c-g-": [
+      ["<es cat='question'> Will you help me find different flags here?</es> <break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the playground.", "introduction_c-g-_0", "POSE_FORWARD"]
+    ],
+    "c-g+":[
+      ["<es cat='question'> Will you help me find different flags here?</es> <break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the playground.", "introduction_c-g+_0", "POSE_FORWARD"]
+    ],
+    "c+g-":[
+      ["<es cat='curious'>I wonder how many flags there are in the playground?</es><break size='0.5'/> <es cat='question'> Will you help me find different <prize-name>s here?<break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the playground.", "robot_question_intro", "POSE_FORWARD", "introduction_c+g-_0", "POSE_FORWARD"]
+    ],
+    "c+g+":[
+      ["<es cat='curious'>I wonder how many flags there are in the playground?</es><break size='0.5'/> <es cat='question'> Will you help me find different <prize-name>s here?<break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the playground.", "robot_question_intro", "POSE_FORWARD", "introduction_c+g+_0", "POSE_FORWARD"]
+    ]
+  },
+  "conclusion": {
+    "all": [
+      ["We found so many <prize-name>s! <es name = 'affection_01'/> Way to go, <participant-name>! <es name='SpinHead_01' /> ", "conclusion_all_0", "LEFTRIGHTLOOKING", "conclusion_all_0", "HAPPY_DANCE"]
+    ]
+  },
+
+  "end_party" : { 
+    "all": [
+      ["<es name='Yawn_01' /> Okay, I feel very tired after digging up those flags from the playground. Nap time, it is. <break size='1.0' /> Chao! ", "party_all_1", "YAWN", "party_all_2", "POSE_SLEEPING"]
+    ]
+  },
+
+  "ask_question_robot_play":{
+    "question0": ["<es cat='question'/>I wonder if there are bugs underneath the rocks.", "ask_question_robot_play1","POSE_FORWARD"],
+    "question1": ["<es cat='curious'/>I wonder who makes all these flags?", "ask_question_robot_play2","POSE_FORWARD"],
+    "question2": ["<es cat='question'/>I wonder what flags are made of?", "ask_question_robot_play3","POSE_FORWARD"],
+    "question3": ["<es cat='curious'/>I wonder why I have one big eye, instead of two eyes like yours. <break size='0.5'/>triangle? <break size='0.5'/>or square?", "ask_question_robot_play4","POSE_FORWARD"],
+    "question4": ["<es cat='question'/>I wonder if it's allowed to pick the flowers. ", "ask_question_robot_play5","POSE_FORWARD"],
+    "question5": ["<es cat='curious'/>I wonder if robots can climb the ladder too.", "ask_question_robot_play6","POSE_FORWARD"]
+  },
+
+  "ask_question_party":[
+    ["<es cat='question'> By the way, I wonder where the world's first ever flag was made.</es>", "ask_question_party","POSE_FORWARD"]
+  ]
+}
+
+

@@ -1,0 +1,75 @@
+{
+  "prize-name": "shell",
+  "robot-position": [0.1,0.06],
+  "greeting":[
+    ["<es cat='happy' /> Great! You and I are diving in the water world. <es name='1-gift-show-01'> There are lots of treasures, vegetation, and shells there</es>. Let's discover together what there is in the water world. <es name='Emoji_Fish' /> ", "YAWN", "LOOKAT_CHILD", "introduction_all_0"]
+  ],
+  "introduction":{
+    "c-g-": [
+      ["<es cat='question'> Will you help me find different shells in the water world?</es> <break size='1.0' /> <es name='SpinHead_01' /> Let's play! we need to go to the magic treasure room.", "introduction_c-g-_0", "POSE_FORWARD"]
+    ],
+    "c-g+":[
+      ["<es cat='question'> Will you help me find different shells in the water world?</es><break size='1.0' /> <es name='SpinHead_01' /> Let's play! we need to go to the magic treasure room.", "introduction_c-g-_0", "POSE_FORWARD"]
+    ],
+    "c+g-":[
+      ["<es cat='curious'>I wonder what’s inside the shells. </es><break size='0.5'/> will you help me find different shells in the water world?<break size='1.0' /> <es name='SpinHead_01' /> Let's play! we need to go to the magic treasure room.", "robot_question_intro", "POSE_FORWARD", "introduction_c-g-_0", "POSE_FORWARD"]
+    ],
+    "c+g+":[
+      ["<es cat='curious'>I wonder what’s inside the shells. </es> <break size='0.5'/> will you help me find different shells in the water world?<break size='1.0' /> <es name='SpinHead_01' /> Let's play! we need to go to the magic treasure room.", "robot_question_intro", "POSE_FORWARD", "introduction_c-g-_0", "LOOKAT_TABLET"]
+    ]
+  },
+  "robot_select":[
+    ["<es name='Yawn_02' /> Oh! Hello! Nice to meet you. My name is Jibo. J I B O. <break size='1.0' />  What is your name? <es name='affection_05' /> <break size='1.0' />  <participant-name>, great! If my pronunciation is a bit wrong, <es name='Emoji_HeartRed'>I'll get better as we become friends with each other </es>. Here is my dance to celebrate our first day! <es name='Twerking_music_dance_01' /> That was fun. <break size='1.0' />  <es name='Body_Look_Center_Down_01'> Oh, look! <break size='1.0'/> You need to first select which robot you want to be</es> , so we can go to adventures together in the robot world. Pick a robot!"]
+  ],
+  "selection_tutorial": {
+    "all": [
+      [
+        "Look at all those <es cat='gift'> magical treasure boxes</es>! <break size='0.5' />in each treasure box, we will find exactly what we are looking for,<break size='0.2' />if we can open it by solving a puzzle. <break size='0.5' /> There is also a puzzle <es name='Emoji_Question'> behind the question mark, but we cannot see it until we select it. <break size='0.5' />first we need to choose </es>which box to try to open. I will try first, but because I have no hands, I will <es name='Emoji_Brain'> use my brain power to move things on the screen!</es><break size='1.0/>",
+        "LOOKAT_TABLET",
+        "selection_tutorial_all_0_question"
+      ]
+    ]
+  },
+  "selection_tutorial_comment": {
+    "c-g-" : [
+      ["<es name='Body_Look_Center_Down_01'>hmm.. <break size='1.0'/>I will choose this one.</es>","selection_tutorial_c-g-_0", "IDLESTILL"]
+    ],
+    "c-g+" : [
+      ["<es name='Body_Look_Center_Down_01'>hmm.. <break size='1.0'/>I will choose this one, </es> because it looks challenging! <es cat='happy' />","selection_tutorial_c-g+_0", "IDLESTILL"]
+    ],
+    "c+g-": [
+      ["I wonder who made the treasure boxes. <break size='0.5'/><es name='Body_Look_Center_Down_01'>hmm.. <break size='1.0'/>I will choose this one, because I can learn from it.</es>", "robot_question_box", "POSE_FORWARD", "selection_tutorial_c+g-_0", "IDLESTILL"]
+    ],
+    "c+g+": [
+      ["I wonder who made the treasure boxes. <break size='0.5'/><es name='Body_Look_Center_Down_01'>hmm.. <break size='1.0'/>I will choose this one, because it looks challenging </es>and I can learn a lot from it. <es cat='happy' /> ", "POSE_FORWARD", "robot_question_box", "LOOKAT_TABLET", "selection_tutorial_c+g+_0", "IDLESTILL"]
+    ]
+  },
+  "tangram_tutorial": [
+      ["Oh, look! these puzzles are made of <es name='Body_Look_Center_Down_01'> pieces of different shapes. we need to find where to put them </es> to fill in the black area.  <break size='0.5'/>we have two minutes to try, <es name='Emoji_Clock'> until the sand in the hourglass runs out, <break size='0.5'/>but we </es>need to try even faster so we are in time for the party! <break size='0.5' /> First, watch me and then you take a turn.","tangram_tutorial_all_0_faster", "LOOKAT_TABLET"]
+  ],
+  "conclusion": {
+    "all": [
+      ["We found so many <prize-name>s. Yay! The water world is the most interesting world I’ve ever been to. <es name='SpinHead_01' /> ", "conclusion_all_0", "LEFTRIGHTLOOKING", "conclusion_all_0", "HAPPY_DANCE"]
+    ]
+  },
+  "end_party" : { 
+    "all": [
+      ["<es name='Yawn_01' /> i'm tired now, let's play again next time. <break size='1.0' /> bye.", "party_all_1", "YAWN", "party_all_2", "POSE_SLEEPING"]
+    ]
+  },
+
+  "ask_question_robot_play":{
+    "question1": ["<es cat='question'>I wonder how long shells survive in the water?</es>", "ask_question_robot_play1","POSE_FORWARD"],
+    "question2": ["<es cat='confused'>I wonder how old the world's oldest marine creature is?</es>", "ask_question_robot_play2","POSE_FORWARD"],
+    "question3": ["<es cat='question'>I wonder what a fossil is? How was it created?</es>", "ask_question_robot_play3","POSE_FORWARD"],
+    "question4": ["<es cat='curious'>It would be interesting to find out if shells also grow in fresh water.</es>", "ask_question_robot_play4","POSE_FORWARD"],
+    "question5": ["<es cat='question'>I wonder what the most ancient fossils in the world have been discovered?</es>", "ask_question_robot_play5","POSE_FORWARD"],
+    "question6": ["<es cat='confused'>I wonder how the pearls are made?</es>", "ask_question_robot_play6","POSE_FORWARD"]
+  },
+
+  "ask_question_party":[
+    ["<es cat='question'>I wonder if there are animals that turn the shell into their home?</es>", "ask_question_party","POSE_FORWARD"]
+  ]
+}
+
+

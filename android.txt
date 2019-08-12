@@ -1,0 +1,3 @@
+title=tangram_nih_mindset_3_0
+author=Goren Gordon
+orientation=landscape

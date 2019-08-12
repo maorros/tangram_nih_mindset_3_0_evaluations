@@ -1,0 +1,9 @@
+Android Target API = 19
+If you get a numpy error with python-for-android, clone the latest https://github.com/kivy/python-for-android and point `p4a.source_dir` in `buildozer.spec` to the cloned path.
+
+sudo buildozer
+adb logcat | grep python
+
+
+roscore
+rostopic echo log

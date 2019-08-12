@@ -1,0 +1,54 @@
+{
+  "prize-name": "coconut",
+  "robot-position": [0.35,0.06],
+  "greeting":[
+    ["<es name='Yawn_02' />  Hey there, <participant-name>! Great to see you today. I am your good ol robot friend, Jibo! <es name='affection_05' /> <es cat='question'> Do you know, today is going to be our last time playing the game? </es> <es cat='excited'> But hey, I am excited to play with you today. </es>  <es cat='question'> Will you do a last dance with me? </es> <es name='dance_pop_00' /> Always so fun! <break size='1.0' />  <es name='Body_Look_Center_Down_01'> Oh, look! <break size='1.0'/> It's your robot on the tablet screen. </es>. <es name = 'Body_Look_Center_Up_01'><es cat='question'> Are you ready to go on our last adventure together in the Hawaiian planes? <es name='Emoji_Beach' /> </es> </es> Let's go. <es name='SpinHead_01' /> ", "YAWN", "LOOKAT_CHILD", "introduction_all_0"]
+  ],
+  "introduction":{
+    "all": [
+      ["<es cat='happy'> My friend Sam went on a holiday to <es name='Emoji_Beach' /> Hawaii.</es> He really loves coconuts, but cannot find any! <es cat='sad' /> ", "YAWN", "LOOKAT_CHILD", "introduction_all_1"]
+    ],
+    "c-g-": [
+      ["<es cat='question'> Will you help me find different coconuts?</es> <break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the Hawaiian trees.", "introduction_c-g-_0", "POSE_FORWARD"]
+    ],
+    "c-g+":[
+      ["<es cat='question'> Will you help me find different coconuts here?</es><break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the Hawaiian trees.", "introduction_c-g-_0", "POSE_FORWARD"]
+    ],
+    "c+g-":[
+      ["<es cat='curious'>I wonder how many coconuts there are on the tree?</es><break size='0.5'/> Will you help me find different coconuts here?<break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the Hawaiian trees.", "robot_question_intro", "POSE_FORWARD", "introduction_c-g-_0", "POSE_FORWARD"]
+    ],
+    "c+g+":[
+      ["<es cat='curious'>I wonder how many coconuts there are on the tree? </es> <break size='0.5'/> Will you help me find different coconuts here?<break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the Hawaiian trees.", "robot_question_intro", "POSE_FORWARD", "introduction_c-g-_0", "LOOKAT_TABLET"]
+    ]
+  },
+  "robot_select":[
+    ["<es name='Yawn_02' />  Not relevant"]
+  ],
+  "conclusion": {
+    "all": [
+      ["We found so many <prize-name>s. Yay! We found so many coconuts <es name = 'affection_01'> Thank you for helping my friend in Hawaii <es name='SpinHead_01' />. <participant-name>, you helped me find so many treasures over the past few weeks.", "conclusion_all_0", "LEFTRIGHTLOOKING", "conclusion_all_0", "HAPPY_DANCE"]
+    ]
+  },
+
+  "end_party" : { 
+    "all": [
+      ["It's now time to collect <es name='Emoji_Star'>  some coconut stickers. </es> <es name='Body_Look_Center_Down_01'> Look at all the stickers we have collected over the weeks. </es> <es name = 'Body_Look_Center_Up_01'> I am so proud of us, <participant-name>, <es cat='proud'/> <break size = '0.5' /> We make a great team. </es> <es name='affection_03' /> I'm going to go back to sleep and dream of <es name='Emoji_Beach'> Hawaii. </es> I will miss playing all these games with you. <break size='1.0' /> Goodbye <participant-name>.", "party_all_1", "YAWN", "party_all_2", "POSE_SLEEPING"]
+    ]
+  },
+
+  "ask_question_robot_play":{
+    "question0": ["<es cat='question'> I wonder how much a coconut weighs. </es>", "ask_question_robot_play1","POSE_FORWARD"],
+    "question1": ["<es cat='confused'>I wonder who discovered that coconuts could be eaten. </es>", "ask_question_robot_play2","POSE_FORWARD"],
+    "question2": ["<es cat='question'>I wonder why monkeys love coconuts so much. </es>", "ask_question_robot_play3","POSE_FORWARD"],
+    "question3": ["<es cat='curious'>I wonder how to make a coconut cake. </es>", "ask_question_robot_play4","POSE_FORWARD"],
+    "question4": ["<es cat='question'>Do you know why coconut is called a coconut? </es>", "ask_question_robot_play5","POSE_FORWARD"],
+    "question5": ["<es cat='curious'>I wonder how coconut juice is prepared. </es>", "ask_question_robot_play6","POSE_FORWARD"],
+    "question6": ["<es cat='question'> I wonder which parts of the world coconuts are found in. </es>", "ask_question_robot_play1","POSE_FORWARD"]
+  },
+
+  "ask_question_party":[
+    ["<es cat='question'>I wonder how people pick coconuts from such tall trees.</es>", "ask_question_party","POSE_FORWARD"]
+  ]
+}
+
+

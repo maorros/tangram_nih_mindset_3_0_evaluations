@@ -1,0 +1,54 @@
+{
+  "prize-name": "ice cream",
+  "robot-position": [0.4,0.15],
+  "greeting":[
+    ["<es name='Yawn_02' />  Howdie, <participant-name>! What a beautiful day. I like the sun, <es name='Emoji_Sun'/>but I also like rain! <es name='Emoji_RainCloud'/> Do you? <break size='0.5'/> You know what I also like? <break size='0.5'/> three <break size='0.3'/> two <break size='0.3'/> one! <es name='dance_pop_00' /> That was so much fun. <break size='1.0' />  <es name='Body_Look_Center_Down_01'> Oh, look! <break size='0.5'/> </es> My friend Sammie is <es name = 'Emoji_IceCream'> selling ice cream on his ice cream truck. I love icecream.</es>", "YAWN", "LOOKAT_CHILD", "introduction_all_0"]
+  ],
+  "introduction":{
+    "all": [
+      ["<es cat='surprised'> oh no! </es> Sammie might be running out of ice cream. <es cat='worried'/>He needs help looking for more ice cream <break size='1.0'/>", "YAWN", "LOOKAT_CHILD", "introduction_all_1"]
+    ],
+    "c-g-": [
+      ["<es cat='question'> Will you help me find ice creams?</es> <break size='1.0' /> <es name='SpinHead_01' /> Let's discover together where the ice creams went.", "introduction_c-g-_0", "POSE_FORWARD"]
+    ],
+    "c-g+":[
+      ["<es cat='question'> Will you help me find ice creams?</es> <break size='1.0' /> <es name='SpinHead_01' /> Let's discover together where the ice creams went.", "introduction_c-g+_0", "POSE_FORWARD"]
+    ],
+    "c+g-":[
+      ["<es cat='curious'>I wonder how long it will take before ice creams all melt. </es><break size='0.5'/> <es cat='question'> Will you help me find ice creams before they melt?</es> <break size='1.0' /> <es name='SpinHead_01' /> Let's discover together where the ice creams went.<break size='1.0' />", "robot_question_intro", "POSE_FORWARD", "introduction_c+g-_0", "POSE_FORWARD"]
+    ],
+    "c+g+":[
+      ["<es cat='curious'>I wonder how long it will take before ice creams all melt. </es><break size='0.5'/> <es cat='question'> Will you help me find ice creams before they melt?</es> <break size='1.0' /> <es name='SpinHead_01' /> Let's discover together where the ice creams went.<break size='1.0' />", "robot_question_intro", "POSE_FORWARD", "introduction_c+g+_0", "POSE_FORWARD"]
+    ]
+  },
+  "robot_select":[
+    ["<es name='Yawn_02' />  Oh! Hello, <participant-name>! Great to see you again. Remember me? I am Jibo.! I love coming to school and getting to play with you. <es name='affection_05' /> It makes me so happy that I want to dance! <es name='dance_flamenco_guitar_00' /> That was fun. <break size='1.0' />   <es name='Body_Look_Center_Down_01'> Oh, look! <break size='1.0'/> You need to first select which robot you want to be</es> , so we can go to adventures together in the robot world. Pick a robot!"]
+  ],
+  "conclusion": {
+    "all": [
+      [" <es name = 'affection_01'> You helped me find so many ice creams.</es>It is going to be yummy, but make sure you don't eat too many at once! It will give you tummy aches. <es name='SpinHead_01' /> ", "conclusion_all_0", "LEFTRIGHTLOOKING", "conclusion_all_0", "HAPPY_DANCE"]
+    ]
+  },
+
+  "end_party" : { 
+    "all": [
+      ["<es name='Yawn_01' /> I feel so full after all that ice cream! I will go back to sweet dreams, while you collect <es name = 'Emoji_IceCream'> the ice cream stickers for both of us. </es><break size='1.0' /> Bye bye. ", "party_all_1", "YAWN", "party_all_2", "POSE_SLEEPING"]
+    ]
+  },
+
+  "ask_question_robot_play":{
+    "question0": ["<es cat='question'> I wonder how many ice cream flavors there are in the world. </es>", "ask_question_robot_play1","POSE_FORWARD"],
+    "question1": ["<es cat='confused'>I wonder how ice creams are made. <break size='1.0'/>Fairies?</es>", "ask_question_robot_play2","POSE_FORWARD"],
+    "question2": ["<es cat='question'> I wonder how tall you can stack ice creams? <break size='0.5' /> Maybe 30 scoops?  </es>", "ask_question_robot_play3","POSE_FORWARD"],
+    "question3": ["<es cat='curious'> It is interesting to know whether animals like ice creams too. </es>", "ask_question_robot_play4","POSE_FORWARD"],
+    "question4": ["<es cat='question'>Do you think ice creams melt in the cold winter too? </es>", "ask_question_robot_play5","POSE_FORWARD"],
+    "question5": ["<es cat='curious'> I wonder if they have my favorite flavour, Strawberry. </es>", "ask_question_robot_play6","POSE_FORWARD"],
+    "question6": ["<es cat='question'> I wonder what the strangest ice cream flavour in the world is. </es>", "ask_question_robot_play1","POSE_FORWARD"]
+  },
+
+  "ask_question_party":[
+    ["<es cat='question'> I wonder what the strangest ice cream flavour in the world is. </es>", "ask_question_party","POSE_FORWARD"]
+  ]
+}
+
+

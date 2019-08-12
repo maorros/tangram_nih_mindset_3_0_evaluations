@@ -1,0 +1,54 @@
+{
+  "prize-name": "dinosaur egg",
+  "robot-position": [0.5,0.06],
+  "greeting":[
+    ["<es name='Yawn_02' />  Hey hey hey <participant-name>! So exciting to see you again. It's your friend, Jibo! <es name='spin_02' /> Playing with you is my favorite part of the day. <es name='affection_05' /> I will now do what I am best at, <break size='0.2'/> <es name = 'Emoji_Disco_Spin_01'> dancing! <es name='dance_funk_02' /> That was so much fun. <break size='1.0' />  <es name='Body_Look_Center_Down_01'> Oh, look! <break size='0.5'/> It's your robot. </es>.  <es name = 'Body_Look_Center_Up_01' /> Today I want to introduce you to my friend Lorenza the Dinosaur. ", "YAWN", "LOOKAT_CHILD", "introduction_all_0"]
+  ],
+  "introduction":{
+    "all": [
+      ["Looks like <es name = 'Emoji_EasterEgg'> my friend Lorenza has lost all her dinosaur eggs. </es>  <es cat='sad' /> Lorenza needs help looking for her eggs.", "YAWN", "LOOKAT_CHILD", "introduction_all_1"]
+    ],
+    "c-g-": [
+      ["<es cat='question'> Will you help me find Lorenza's dinosaur eggs here?</es> <break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the dinosaur world.", "introduction_c-g-_0", "POSE_FORWARD"]
+    ],
+    "c-g+":[
+      ["<es cat='question'> Will you help me find Lorenza's dinosaur eggs here?</es> <break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the dinosaur world.", "introduction_c-g+_0", "POSE_FORWARD"]
+    ],
+    "c+g-":[
+      ["<es cat='disgusted'/>hmm.. <break size='0.5'/> I wonder who took her eggs and why.<break size='0.5'/> Will you help me find Lorenza's dinosaur eggs here?<break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the dinosaur world.", "robot_question_intro", "POSE_FORWARD", "introduction_c+g-_0", "POSE_FORWARD"]
+    ],
+    "c+g+":[
+      ["<es cat='disgusted'/>hmm.. <break size='0.5'/> I wonder who took her eggs and why.<break size='0.5'/> Will you help me find Lorenza's dinosaur eggs here?<break size='1.0' /> <es name='SpinHead_01' /> Let's discover together what there is in the dinosaur world.", "robot_question_intro", "POSE_FORWARD", "introduction_c+g+_0", "POSE_FORWARD"]
+    ]
+  },
+  "robot_select":[
+    ["<es name='Yawn_02' />  Oh! Hello, <participant-name>! Great to see you again. Remember me? I am Jibo.! I love coming to school and getting to play with you. <es name='affection_05' /> It makes me so happy that I want to dance! <es name='dance_flamenco_guitar_00' /> That was fun. <break size='1.0' />   <es name='Body_Look_Center_Down_01'> Oh, look! <break size='1.0'/> You need to first select which robot you want to be</es> , so we can go to adventures together in the robot world. Pick a robot!"]
+  ],
+  "conclusion": {
+    "all": [
+      [" <es name = 'affection_01'> Thank you! </es> We found so many <prize-name>s for Lorenza with your help. <es name='SpinHead_01' /> ", "conclusion_all_0", "LEFTRIGHTLOOKING", "conclusion_all_0", "HAPPY_DANCE"]
+    ]
+  },
+
+  "end_party" : { 
+    "all": [
+      ["<es name='Yawn_01' /> I am so tired now! I will go back to sleep and dream about dinosaurs. <participant-name>, can you make sure we collect all the dinosaur egg stickers? <break size='1.0' /> hehe, good bye. ", "party_all_1", "YAWN", "party_all_2", "POSE_SLEEPING"]
+    ]
+  },
+
+  "ask_question_robot_play":{
+    "question0": ["<es cat='question'> I wonder how long it takes for a dinosaur egg to hatch. </es>", "ask_question_robot_play1","POSE_FORWARD"],
+    "question1": ["<es cat='confused'>Do you know why it's so hot near volcanos?</es>", "ask_question_robot_play2","POSE_FORWARD"],
+    "question2": ["<es cat='question'> I wonder what happened to the dinosaurs. <break size='0.5'/> I don't see them around anymore. </es>", "ask_question_robot_play3","POSE_FORWARD"],
+    "question3": ["<es cat='question'> I wonder how big the biggest dinosaur was. <break size='0.5'/> <es name = 'Emoji_SchoolBus_HF_01'> Do you think it was bigger than our school bus? </es> </es>", "ask_question_robot_play1","POSE_FORWARD"],
+    "question4": ["<es cat='question'>Do you think robots can climb a volcano? </es>", "ask_question_robot_play5","POSE_FORWARD"],
+    "question5": ["<es cat='curious'>I wonder what kind of sounds dinosaurs make.</es>", "ask_question_robot_play6","POSE_FORWARD"],
+    "question6": ["<es cat='curious'> It'd be interesting to find out whether </es>dinosaurs eggs are exactly like <es name = 'Emoji_EasterEgg'> chicken eggs. </es>", "ask_question_robot_play4","POSE_FORWARD"]
+  },
+
+  "ask_question_party":[
+    ["<es cat='question'>I wonder what will happen if the dinosaurs were to reappear one day.</es>", "ask_question_party","POSE_FORWARD"]
+  ]
+}
+
+
